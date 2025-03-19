@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parayzo.apk</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido, Parayzo.apk</h1>
+        <div class="rainbow"></div>
+        <nav>
+            <a href="#" id="developer-link">Desarrollador</a>
+        </nav>
+    </header>
+    <main>
+        <section id="apps">
+            <!-- Aquí aparecerán las aplicaciones subidas -->
+        </section>
+        <section id="upload-section" style="display:none;">
+            <h2>Subir APK</h2>
+            <form id="upload-form">
+                <input type="text" id="apk-name" placeholder="Nombre de la aplicación" required>
+                <input type="file" id="apk-file" accept=".apk" required>
+                <button type="submit">Subir APK</button>
+            </form>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
